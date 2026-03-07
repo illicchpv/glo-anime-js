@@ -19,5 +19,29 @@
 	- Функции: https://learn.javascript.ru/function-basics
 	- Условия: https://learn.javascript.ru/ifelse
 	- Циклы: https://learn.javascript.ru/while-for
-	
 
+
+## Урок 2. Слайдер и Плавный scroll
+
+Подключим Swiper слайдер. Современным способом реализуем плавную прокрутку на странице.
+
+Чтоб не было ошибок в скриптах рекомендуется использовать именно эти скрипты:
+
+<script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sticky-sidebar@3.3.1/dist/sticky-sidebar.min.js"></script>
+
+
+### ОБЯЗАТЕЛЬНОЕ ЗАДАНИЕ
+  - Повторить код за уроком
+  - Результат необходимо залить на github или прикрепить архивом
+
+### УСЛОЖНЕННОЕ ЗАДАНИЕ
+  - Подключить получение данных с firebase realtime-database
+  - Результат необходимо залить на github или прикрепить архивом
+
+### Дополнительные материалы
+  - seamless-scroll-polyfill https://www.npmjs.com/package/seamless-scroll-polyfill
+  
