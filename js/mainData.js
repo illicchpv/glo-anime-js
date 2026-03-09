@@ -1,4 +1,5 @@
 const mainData = () => {
+  const preloader = document.getElementById('preloder');
 
   const renderGanres = (ganres) => {
     const dropdownBlock = document.querySelector('.header__menu .dropdown');
@@ -28,7 +29,9 @@ const mainData = () => {
         renderGanres(ganres);
         renderAnimeList(data.anime, ganres);
         renderTopAnime(sotred5);
-      })
+
+        setTimeout(() => preloader.classList.remove('active'), 500);
+      });
   }
 
   // Рендер список аниме

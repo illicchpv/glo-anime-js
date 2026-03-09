@@ -1,4 +1,5 @@
 const categoriesData = () => {
+  const preloader = document.getElementById('preloder');
 
   // Загрузка данных
   {
@@ -19,7 +20,9 @@ const categoriesData = () => {
         renderGanres(ganres);
         renderTopAnime(sotred5);
         renderAnimeList(data.anime, ganreParam ? [ganreParam] : ganres);
-      })
+
+        setTimeout(() => preloader.classList.remove('active'), 500);
+      });
   }
 
   // Рендер жанров
